@@ -1,0 +1,99 @@
+$bg-color:#333;
+$font-color:#FFF;
+$primary-color:#008ed6;
+$orange: #ff8000;
+$dark-overlay: rgba(0,0,0,0.7);
+$icon-size:30px;
+
+.display-4{
+  font-size: 3rem;
+}
+
+@media screen and (max-width: 768px) {
+    .display-4 {
+        font-size:1.8rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h5, .lead {
+        font-size:1rem;
+    }
+}
+
+body{
+  background-color: $bg-color;
+  color: $font-color;
+  font-family: 'Trocchi', serif;
+  // padding-top: 58px;
+}
+
+
+.navbar{
+  border-bottom: $orange 3px solid;
+  opacity: 0.8;
+}
+
+.intro{
+  color: $orange;
+  // font-weight: 600;
+}
+
+#home-section{
+  background: url('../img/background.jpg') no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px;
+
+  .dark-overlay{
+    background-color: $dark-overlay;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 700px;
+  }
+
+  .home-inner{
+    padding-top: 150px;
+  }
+
+  .card-form{
+    opacity: 0.8;
+  }
+
+  .fa{
+    color: $primary-color;
+    background: #FFF;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: $icon-size;
+  }
+}
+
+#aims-section, #work-section{
+  .fa {
+    color:#FFF;
+    background: #333;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: $icon-size;
+  }
+}
+
+#about-section, #support-section {
+  .fa{
+    color: $primary-color;
+    background: #FFF;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: $icon-size;
+  }
+}
+
+#main-footer{
+  .fa {
+    color:#FFF;
+    font-size: 1.5rem;
+  }
+}
