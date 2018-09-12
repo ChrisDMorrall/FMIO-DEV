@@ -14,12 +14,35 @@ body {
   color: #FFF;
   font-family: 'Trocchi', serif; }
 
+a {
+  color: #fff; }
+
+a:hover {
+  color: #ff8000;
+  text-decoration: none; }
+
+.nav-link:focus, .nav-link:hover {
+  color: #ff8000 !important; }
+
+.btn-outline-light:hover {
+  color: #ff8000; }
+
+#white-bg-link {
+  color: #868e96; }
+
+#white-bg-link:hover {
+  color: #ff8000; }
+
 .navbar {
   border-bottom: #ff8000 3px solid;
   opacity: 0.8; }
 
 .intro {
   color: #ff8000; }
+
+.footer-items {
+  margin-top: 4px;
+  margin-bottom: 4px; }
 
 #home-section {
   background: url("../img/background.jpg") no-repeat;
@@ -45,8 +68,8 @@ body {
     font-size: 30px; }
 
 #aims-section .fa, #work-section .fa {
-  color: #FFF;
-  background: #333;
+  color: #ff8000;
+  background: #F8F9FA;
   padding: 4px;
   border-radius: 5px;
   font-size: 30px; }
@@ -61,3 +84,6 @@ body {
 #main-footer .fa {
   color: #FFF;
   font-size: 1.5rem; }
+
+#main-footer .fa:hover {
+  color: #ff8000; }

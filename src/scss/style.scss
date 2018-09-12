@@ -28,6 +28,30 @@ body{
   // padding-top: 58px;
 }
 
+a {
+  color: #fff;
+}
+
+a:hover{
+  color: $orange;
+  text-decoration: none;
+}
+
+.nav-link:focus, .nav-link:hover {
+  color: $orange !important;
+}
+
+.btn-outline-light:hover {
+  color: $orange;
+}
+
+#white-bg-link {
+  color: #868e96;
+}
+
+#white-bg-link:hover {
+  color: $orange;
+}
 
 .navbar{
   border-bottom: $orange 3px solid;
@@ -37,6 +61,11 @@ body{
 .intro{
   color: $orange;
   // font-weight: 600;
+}
+
+.footer-items {
+  margin-top: 4px;
+  margin-bottom: 4px;
 }
 
 #home-section{
@@ -73,8 +102,8 @@ body{
 
 #aims-section, #work-section{
   .fa {
-    color:#FFF;
-    background: #333;
+    color:$orange;
+    background: #F8F9FA;
     padding: 4px;
     border-radius: 5px;
     font-size: $icon-size;
@@ -95,5 +124,9 @@ body{
   .fa {
     color:#FFF;
     font-size: 1.5rem;
+  }
+
+  .fa:hover{
+    color: $orange;
   }
 }
