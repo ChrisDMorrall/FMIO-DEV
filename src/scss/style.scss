@@ -1,7 +1,8 @@
 $bg-color:#333;
 $font-color:#FFF;
 $primary-color:#008ed6;
-$orange: #ff8000;
+// $orange: #ff8000;
+$orange:  #F7812C;
 $dark-overlay: rgba(0,0,0,0.7);
 $icon-size:30px;
 
@@ -13,6 +14,12 @@ $icon-size:30px;
     .display-4 {
         font-size:1.8rem;
     }
+    // .no-padding-bottom {
+    //   padding-bottom: 0 !important;
+    // }
+    // .no-padding-top {
+    //   padding-top: 0 !important;
+    // }
 }
 
 @media screen and (max-width: 768px) {
@@ -98,6 +105,11 @@ a:hover{
     border-radius: 5px;
     font-size: $icon-size;
   }
+}
+
+
+.header-space{
+  margin-top: 8px;
 }
 
 #aims-section, #work-section{

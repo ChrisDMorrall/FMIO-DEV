@@ -18,27 +18,27 @@ a {
   color: #fff; }
 
 a:hover {
-  color: #ff8000;
+  color: #F7812C;
   text-decoration: none; }
 
 .nav-link:focus, .nav-link:hover {
-  color: #ff8000 !important; }
+  color: #F7812C !important; }
 
 .btn-outline-light:hover {
-  color: #ff8000; }
+  color: #F7812C; }
 
 #white-bg-link {
   color: #868e96; }
 
 #white-bg-link:hover {
-  color: #ff8000; }
+  color: #F7812C; }
 
 .navbar {
-  border-bottom: #ff8000 3px solid;
+  border-bottom: #F7812C 3px solid;
   opacity: 0.8; }
 
 .intro {
-  color: #ff8000; }
+  color: #F7812C; }
 
 .footer-items {
   margin-top: 4px;
@@ -67,8 +67,11 @@ a:hover {
     border-radius: 5px;
     font-size: 30px; }
 
+.header-space {
+  margin-top: 8px; }
+
 #aims-section .fa, #work-section .fa {
-  color: #ff8000;
+  color: #F7812C;
   background: #F8F9FA;
   padding: 4px;
   border-radius: 5px;
@@ -86,4 +89,4 @@ a:hover {
   font-size: 1.5rem; }
 
 #main-footer .fa:hover {
-  color: #ff8000; }
+  color: #F7812C; }
